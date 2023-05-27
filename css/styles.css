@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style-type:none;
+}
+/*Generales*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar{
+    background-color: #0A0909;
+    padding: 25px 0;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link{
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 33px;
+    font-family: Arial;
+}
+
+.logo-link span{
+    color: #ED1C24;
+}
+
+.links-container{
+    display: flex;
+}
+.list-links{
+    width: 150px;
+    text-align: center;
+}
+.list-links:nth-child(odd){
+    width: 150px;
+}
+
+.link{
+    color: #f8f9fa;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-transform: capitalize;
+}
