@@ -86,6 +86,27 @@
     margin-bottom: 15px;
 }
 
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 15px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    
+}
+.icons i{
+    color: #ED1C24;
+    font-size:40px;
+    margin-right: 8px;
+}
+
+.icons span{
+    font-size: 14px;
+    font-family: arial;
+    color: #ED1C24;
+}
 .card-button{
     padding: 10px 0;
     font-size: 18px;
